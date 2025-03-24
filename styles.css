@@ -1,0 +1,51 @@
+/* Fixed-position logo in top-right corner  */
+/* #logo-corner {
+    position: fixed;
+    top: 12px;
+    right: 20px;
+    width: 60px;
+    height: auto;
+    z-index: 9999;
+    pointer-events: none;
+} */
+
+
+/* Otherwise, default is a small logo in the bottom right. */
+.reveal .slide-logo {
+    height: 100px !important;
+    width: 150px !important;
+    max-width: unset !important;
+    max-height: unset !important;
+    /* positioning */
+    position: fixed;
+    top: 12px;
+    right: 20px;
+    width: 60px;
+    height: auto;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+/* Red line under title */
+.reveal h1::after {
+    content: "";
+    display: block;
+    margin-top: 10px;
+    border-bottom: 4px solid #a00000;
+    width: 100%;
+}
+
+/* Footer bar with date (left), name (center), slide number (right)
+.reveal .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75em;
+    padding: 0 1em;
+    color: #555;
+    border-top: 1px solid #ccc;
+    margin-top: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */

@@ -1,0 +1,34 @@
+---
+title: "UNM Presentation"
+format:
+  revealjs:
+    theme: dark # default also an option
+    slide-number: true
+    css: styles.css
+    logo: UNM_logo.png # unm-university-of-new-mexico-logo.png
+    footer: "Patrick Finnerty -- {{< meta date >}}"
+    date-format: iso
+    date: today
+    includes:
+      after_body: logo.html
+---
+
+# First slide after title
+
+Note if you wanna reduce sizing of fonts etc. can go into .css and have gpt do it
+
+
+# Slide Title
+
+- Point one
+- Point two
+- Point one
+- Point two
+- Point one
+- Point two
+- Point one
+- Point two
+
+## more pro tips 
+
+Go to Quarto's website and look up auto-animate, date, etc. if you really want.
