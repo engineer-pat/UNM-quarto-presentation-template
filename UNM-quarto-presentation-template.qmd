@@ -1,5 +1,5 @@
 ---
-title: "UNM Presentation"
+title: "Group Meeting! "
 format:
   revealjs:
     theme: dark # default also an option
@@ -11,24 +11,12 @@ format:
     date: today
     includes:
       after_body: logo.html
+    incremental: true
+    transition: slide
 ---
 
-# First slide after title
+# This week...
 
-Note if you wanna reduce sizing of fonts etc. can go into .css and have gpt do it
+- 
 
-
-# Slide Title
-
-- Point one
-- Point two
-- Point one
-- Point two
-- Point one
-- Point two
-- Point one
-- Point two
-
-## more pro tips 
-
-Go to Quarto's website and look up auto-animate, date, etc. if you really want.
+## Have a good weekend
